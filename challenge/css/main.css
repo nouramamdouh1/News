@@ -1,0 +1,179 @@
+/*navbar style*/
+.navbar .navbar-brand{
+font-family: "inter-ExtraBold";
+font-weight: bolder;
+font-size: 2.5rem;
+text-shadow: 0.5px 0.5px 0.5px black;
+}
+.navbar .nav-item .nav-link:hover{
+    color: #f15d51;
+
+}
+/*about section style*/
+.about .first .fir{
+    float: left;
+    width: 40%;
+}
+.about .first h1{
+    
+    display: inline;
+    color: black;
+    font-weight:bolder ;
+    font-size: 3.5rem;
+    text-shadow: 0.5px 0.5px 0.5px black;
+}
+.about .first .sec{
+    float: left;
+    width: 40%;
+    margin-left: 6rem !important;
+   
+}
+.about .first p{
+    color: grey;
+    font-size: 1rem;
+}
+.first .clear{
+    clear: both;
+}
+.about .first .btn{
+    background-color:#00001a ;
+    color: white;
+    border-radius: 0px;
+    letter-spacing: 0.2rem;
+}
+.about .first .btn:hover{
+    background-color: #f15d51;
+}
+.about .banner{
+    background-image:url("../images/image-web-3-desktop.jpg") ;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    padding-top: 2rem;
+    padding-bottom: 9rem;
+    height: 17rem;
+}
+.about .list{
+    background-color: #00001a;
+    padding-top: 1rem;
+    color: white;
+}
+.about .list h2{
+    color: #e4a947;
+}
+.about .list h4:hover{
+    color: #e4a947;
+}
+
+.items .image img{
+ float: left;
+ width: 25%;
+}
+.items .details{
+    float: left;
+    width: 70%;
+}
+.items .details h2{
+ color: gray;
+}
+.items .details h5{
+    font-weight: bold;
+}
+.items .details p{
+    color: gray;
+}
+@media (max-width: 1399.98px) { 
+    .items .image img{
+        width: 24%;
+       }
+       .items .details{
+           width: 76%;
+       }
+       .items .details h2{
+        color: gray;
+       }
+       .items .details h5{
+           font-size: 0.8rem;
+       }
+       .items .details p{
+           color: gray;
+           width: 100%;
+           font-size: 0.7rem;
+       }   
+}
+@media (max-width: 1199.98px) { 
+    .about .first .fir{
+        width: 28%;
+    }
+    .about .first h1{
+        font-size: 1.6rem;
+    }
+    .about .first .sec{
+        width: 50%;
+        margin-left: 3rem !important;
+       
+    }
+    .about .first p{
+        color: grey;
+        font-size: 0.9rem;
+    }
+    .about .list{     
+        padding-top: 0.3rem;
+        padding-bottom: 0.3rem;
+        height: fit-content;
+    }
+    .about .list h2{
+        font-size: 1.5rem;
+    }
+    .about .list h4{
+        font-size: 0.9rem;
+    }
+    .about .list p{
+        font-size: 0.7rem;
+    }
+   
+    
+ }
+ @media (max-width: 991.98px) { 
+    .about .first .fir{
+        width: 30%;
+    }
+    .about .first h1{
+        font-size: 1.4rem;
+        text-shadow: 0.5px 0.5px 0.5px black;
+    }
+    .about .first .sec{
+        width: 53%;
+        margin-left: 1rem !important;
+    }
+    .about .first p{
+        font-size: 0.7rem;
+    }
+    .about .list{
+        padding-top: 1rem;
+    }
+
+  }
+  @media (max-width: 767.98px) { 
+    .about .first .fir{
+        width: 40%;
+    }
+    .about .first h1{
+        font-size: 1.6rem;
+        text-shadow: 0.5px 0.5px 0.5px black;
+    }
+    .about .first .sec{
+        width: 85%;
+    }
+    .about .first p{
+        color: grey;
+        font-size: 0.9rem;
+        width: 100%;
+        
+    }
+    .about .first .btn{
+        letter-spacing: 0.1rem;
+        font-size: small;
+        padding: 3px;
+    } 
+  }
